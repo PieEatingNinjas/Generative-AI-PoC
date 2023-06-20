@@ -1,10 +1,10 @@
-﻿using System.Threading.Tasks;
+﻿//using System.Threading.Tasks;
 
-using Domain;
+//using Domain;
 
-namespace GenerativeAi.Functions.ingestion;
+//namespace GenerativeAi.Functions.ingestion;
 
-public interface Embed
-{
-    Task<Embedding> Embedding(string content);
-}
+//public interface Embed
+//{
+//    Task<Embedding> Embedding(string content);
+//}

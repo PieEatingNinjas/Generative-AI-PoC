@@ -10,11 +10,56 @@ Content-Type: application/json
      "Name": "apexxnar-epar-product-information_nl.pdf"
 }
 
+### Ask questions about 'Teken'
+
+POST http://{{hostname}}:{{port}}/api/Question
+Content-Type: application/json
+
+{
+    "Question": "Wat zijn teken?"
+}
+
 ### Ask question
 
 POST http://{{hostname}}:{{port}}/api/Question
 Content-Type: application/json
 
 {
-    "Question": "Wat zijn de bijwerkingen van Apexxnar"
+    "Question": "Wat te doen bij een tekenbeet?"
+}
+
+### Ask question
+
+POST http://{{hostname}}:{{port}}/api/Question
+Content-Type: application/json
+
+{
+    "Question": "Wat is het gevaar van een tekenbeet?"
+}
+
+### Ask question
+
+POST http://{{hostname}}:{{port}}/api/Question
+Content-Type: application/json
+
+{
+    "Question": "Is een tekenbeet gevaarlijk?"
+}
+
+### Ask question
+
+POST http://{{hostname}}:{{port}}/api/Question
+Content-Type: application/json
+
+{
+    "Question": "Iemand vertelt me dat tekenbeten niet gevaarlijk zijn. Klopt dit?"
+}
+
+### Ask question
+
+POST http://{{hostname}}:{{port}}/api/Question
+Content-Type: application/json
+
+{
+    "Question": "Ik zie iemand met braakneigingen en kleine ogen. Wat kan het probleem zijn, wat kan ik doen?"
 }

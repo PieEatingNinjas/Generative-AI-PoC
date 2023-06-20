@@ -1,5 +1,5 @@
-﻿using Domain;
+﻿//using Domain;
 
-namespace GenerativeAi.Functions.ingestion;
+//namespace GenerativeAi.Functions.ingestion;
 
-public record DocumentRequest(FileName Name, string Type);
+//public record DocumentRequest(FileName Name, string Type);
